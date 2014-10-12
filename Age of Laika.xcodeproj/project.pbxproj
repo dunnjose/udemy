@@ -14,6 +14,7 @@
 		1B9D0AD619EB1DDF00016548 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D0AD519EB1DDF00016548 /* Images.xcassets */; };
 		1B9D0AD919EB1DDF00016548 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D0AD719EB1DDF00016548 /* LaunchScreen.xib */; };
 		1B9D0AE519EB1DDF00016548 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D0AE419EB1DDF00016548 /* Age_of_LaikaTests.m */; };
+		1B9D0AEF19EB246000016548 /* laika-space-dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D0AEE19EB246000016548 /* laika-space-dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1B9D0ADE19EB1DDF00016548 /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9D0AE319EB1DDF00016548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D0AE419EB1DDF00016548 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		1B9D0AEE19EB246000016548 /* laika-space-dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laika-space-dog.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		1B9D0AC819EB1DDF00016548 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B9D0AEE19EB246000016548 /* laika-space-dog.jpg */,
 				1B9D0AC919EB1DDF00016548 /* Info.plist */,
 				1B9D0ACA19EB1DDF00016548 /* main.m */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9D0AEF19EB246000016548 /* laika-space-dog.jpg in Resources */,
 				1B9D0AD419EB1DDF00016548 /* Main.storyboard in Resources */,
 				1B9D0AD919EB1DDF00016548 /* LaunchScreen.xib in Resources */,
 				1B9D0AD619EB1DDF00016548 /* Images.xcassets in Resources */,

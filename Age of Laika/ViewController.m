@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *dogYears;
+@property (weak, nonatomic) IBOutlet UITextField *ageOfHuman;
 
 @end
 
@@ -22,6 +24,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)convertToDogYears:(UIButton *)sender {
+    float ageFloat = [self.ageOfHuman.text floatValue] * 7;
+    [self.ageOfHuman resignFirstResponder];
+    
+    self.dogYears.text = [NSString stringWithFormat:@"%f",ageFloat];
+    
+       
 }
 
 @end
