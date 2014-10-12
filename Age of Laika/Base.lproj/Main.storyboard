@@ -47,7 +47,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="SFe-7c-LjC">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="fEl-d0-Xda">
+                        <barButtonItem key="leftBarButtonItem" title="Picture of Laika" id="fEl-d0-Xda">
                             <connections>
                                 <segue destination="gPH-gq-JGY" kind="show" id="E8c-z8-9Kn"/>
                             </connections>
